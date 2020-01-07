@@ -47,6 +47,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DC319D423C40CD00059EB0B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DE03084239EE53900F9A75A /* Main.storyboard */,
+				4DE03082239EE53900F9A75A /* ViewController.swift */,
+				4DE030A423A1903800F9A75A /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4DC319D523C40CF10059EB0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DE030A823A1A3A800F9A75A /* HoroscopeTableViewCell.swift */,
+				4DE030A623A193E400F9A75A /* Horoscope.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DC319D623C40D0B0059EB0B /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4DE030AC23A28BED00F9A75A /* AppError.swift */,
+				4DE030AA23A288AF00F9A75A /* NetworkHelper.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
 		4DE03072239EE53900F9A75A = {
 			isa = PBXGroup;
 			children = (
@@ -68,13 +96,9 @@
 			children = (
 				4DE0307E239EE53900F9A75A /* AppDelegate.swift */,
 				4DE03080239EE53900F9A75A /* SceneDelegate.swift */,
-				4DE03082239EE53900F9A75A /* ViewController.swift */,
-				4DE03084239EE53900F9A75A /* Main.storyboard */,
-				4DE030A823A1A3A800F9A75A /* HoroscopeTableViewCell.swift */,
-				4DE030A623A193E400F9A75A /* Horoscope.swift */,
-				4DE030AA23A288AF00F9A75A /* NetworkHelper.swift */,
-				4DE030AC23A28BED00F9A75A /* AppError.swift */,
-				4DE030A423A1903800F9A75A /* DetailViewController.swift */,
+				4DC319D523C40CF10059EB0B /* Model */,
+				4DC319D423C40CD00059EB0B /* Controllers */,
+				4DC319D623C40D0B0059EB0B /* Network Manager */,
 				4DE03087239EE53C00F9A75A /* Assets.xcassets */,
 				4DE03089239EE53C00F9A75A /* LaunchScreen.storyboard */,
 				4DE0308C239EE53C00F9A75A /* Info.plist */,
@@ -117,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4DE03076239EE53900F9A75A /* Build configuration list for PBXProject "MyProjectPractice" */;
+			buildConfigurationList = 4DE03076239EE53900F9A75A /* Build configuration list for PBXProject "2020HoroscopeApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -339,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DE03076239EE53900F9A75A /* Build configuration list for PBXProject "MyProjectPractice" */ = {
+		4DE03076239EE53900F9A75A /* Build configuration list for PBXProject "2020HoroscopeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DE0308D239EE53C00F9A75A /* Debug */,
